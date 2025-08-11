@@ -1,0 +1,117 @@
+.featured-albums {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  flex-wrap: wrap;
+  align-items: center;
+  margin: auto;
+  justify-content: space-evenly;
+  width: 100%;
+}
+
+.flex-item {
+  flex-grow: 1;
+  flex-shrink: 1;
+  flex-basis: 100px;
+  padding: 15px;
+  flex-grow: 1;
+  margin: auto;
+}
+
+.main-nav {
+  font-size: large;
+  color: black;
+  background-color: lightskyblue;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  flex-grow: 1;
+  text-align: center;
+}
+
+.footer {
+  background-color: navy;
+  color: whitesmoke;
+  font-style: oblique;
+  font-weight: bolder;
+
+  text-align: center;
+
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  font-size: smaller;
+}
+
+.album {
+  width: 200px;
+  height: 200px;
+  flex-direction: row;
+}
+
+.album:hover {
+  width: 250px;
+  height: 250px;
+  position: relative;
+  top: 100px;
+}
+
+.footer-list {
+  list-style-type: none;
+}
+
+.nav-list {
+  list-style-type: none;
+}
+
+h2 {
+  text-align: center;
+}
+
+h1 {
+  text-align: center;
+}
+
+body {
+  background-color: blanchedalmond;
+}
+
+.absolute-req {
+  position: absolute;
+  margin: auto;
+  left: 0;
+  right: 0;
+  text-align: center;
+  z-index: 1;
+  width: 200px;
+  height: 200px;
+}
+
+.description {
+  float: left;
+  padding-left: 100px;
+  max-width: 30ch;
+}
+
+.list {
+  float: right;
+  padding-right: 100px;
+}
+/* get the float to work, add absolute to store, i feel like im forgetting something so just double check it all */
+p,
+ul {
+  text-align: center;
+  list-style-type: none;
+}
+
+table,
+th,
+td {
+  border: 2px solid;
+  border-color: darkcyan;
+  background-color: aliceblue;
+}
+
+table {
+  margin-left: auto;
+  margin-right: auto;
+}

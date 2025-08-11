@@ -1,0 +1,35 @@
+  /* There is an attribute called "orphans" which makes a minimum
+  amount of lines that must be left at the bottom of a page or column.*/
+  
+  /*Overflow is an attribute that decides what happens to content 
+  if it overflows a box*/
+
+  /*Zoom sets the "zoom factor" for elements that can be zoomed in and out.*/
+ 
+  /* ALL ATTRIBUTES FOUND FROM https://www.w3schools.com/CSSref/index.php */
+  
+  h1{  
+    border-style:solid;
+    border-color:green;
+    font-size: 50px;
+}
+
+html{
+    background-color: #ffebcd;
+}
+/*My brother calls this "blanched almond"*/
+li{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+#bags{text-shadow:color(pink)
+
+}
+
+#my-list{
+    color:blueviolet
+}
+
+#picture{
+    border-top: 10px solid blue; border-bottom: 20px solid blue
+}

@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Customizable Webpage</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="javascripts.js"></script>
+</head>
+<body>
+  <h1 id="greeting">Hello!</h1>
+  <p id="first-paragraph">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Iusto voluptas nobis minima porro praesentium esse dicta! Recusandae, totam neque ut, perspiciatis voluptate iure molestiae ipsam ipsa quis eos dolorum reiciendis.</p>
+  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Expedita odio placeat assumenda perspiciatis sint aliquam perferendis eos inventore eligendi eaque. Alias, quisquam voluptates? Minus omnis eum repellendus, exercitationem incidunt et laborum recusandae soluta officiis hic aperiam nemo labore dicta, a debitis maxime reiciendis voluptas doloribus consequuntur. Magni ipsum illum at?</p>
+
+ 
+  <div id="formElements" class="hidden">
+    <div class="input-group">
+      <label for="greetingInput">New Greeting:</label>
+      <input type="text" id="greetingInput" placeholder="Enter new greeting">
+    </div>
+
+    <div class="input-group">
+      <label for="paragraphInput">New Paragraph:</label>
+      <input type="text" id="paragraphInput" placeholder="Enter new paragraph">
+    </div>
+
+    <div class="input-group">
+      <label for="bgColorSelect">Choose Background Color:</label>
+      <select id="bgColorSelect">
+        <option value="#f8f9fa">Gray</option>
+        <option value="#ffffff">White</option>
+        <option value="#e3f2fd">Blue</option>
+        <option value="#f0fff4">Green</option>
+      </select>
+    </div>
+
+    <input type="button" value="Apply Changes" onclick="applyUpdates()">
+  </div>
+
+ 
+  <input type="button" value="Customize Page" onclick="revealForm()">
+
+</body>
+</html>
